@@ -1,0 +1,72 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  background-color: #000000e4;
+}
+
+.calc-wrapper {
+  width: 370px;
+  height: 70vh;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.input-wrapper {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.input {
+  font-size: 32px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f0f2f5;
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.result {
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e6f7ff;
+  text-align: right;
+  color: #1890ff;
+  height: 50px;
+}
+
+.dark-button {
+  background-color: #333;
+  color: white;
+  border: none;
+  height: 60px;
+  font-size: 18px;
+}
+
+.blue-button {
+  background-color: #1890ff;
+  color: white;
+  border: none;
+  height: 60px;
+  font-size: 18px;
+}
+
+.light-button {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #d9d9d9;
+  height: 60px;
+  font-size: 18px;
+}
+
+.dark-button:hover, .blue-button:hover, .light-button:hover {
+  opacity: 0.9;
+}
